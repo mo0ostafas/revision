@@ -1,0 +1,397 @@
+# CSS
+
+## TOC
+- What is CSS?
+  - Abbreviation
+  - Styling Language
+- [HTML-CSS Webpages Examples]()
+- Why CSS?
+  - History
+  - are there Alternatives?!
+- CSS Syntax
+  - internal CSS (`<style></style>` element)
+  - Inline CSS (`style=""` attribute)
+  - external CSS (stylesheets)
+  - comments
+  - selectors
+  - naming conventions
+  - values, default values & keywords
+  - measurement units
+  - built-in functions
+  - entities
+  - custom properties
+  - `@` at-rules
+  - nesting
+- Selectors
+  - Simple Selectors
+    - `.class-name` selector based on class
+    - `#idValue` selector based on id
+    - `tagname` selector based on tag name
+    - `*` universal selector
+  - Combinator Selectors
+    - ` ` decendant combinator
+    - `>` child combinator
+    - `+` next (adjacent) sibling combinator
+    - `~` subsequent (general) sibling combinator
+    - `|` namespace separator
+  - Attribute Selectors
+    - `[attribute]` (has the attribute with or without a value)
+    - `[attribute="value"]` (exact value)
+    - `[attribute~="value"]` (separated value)
+    - `[attribute|="value"]` (separated value starts with)
+    - `[attribute^="value"]` (value starts with)
+    - `[attribute$="value"]` (value ends with)
+    - `[attribute*="value"]` (value contains)
+  - Pseudo-Classes
+    - `:root`
+    - `:scope`
+    - `:hover`
+    - `:dir()`
+    - `:lang`
+    - `:fullscreen`
+    - `:backdrop`, `:modal` & `:popover-open`
+    - links & forms pseudo-classes
+      - lvha anchors
+      - `:anylink`
+      - `:active` buttons
+      - `:autofill`
+      - `:checked`, `:default` & `:indeterminate`
+      - `:disabled` & `:enabled`
+      - `:focus`, `:focus-witin` & `:focus-visible`
+      - `:user-vaild`, `:user-invalid`, `:vaild` & `:invalid`
+      - `:readonly` & `:read-write`
+      - `:required`
+      - `:in-range`
+      - `:placeholder-shown`
+    - conditional pseudo-classes
+      - `:where()`
+      - `:has()`
+      - `:is()`
+      - `:not()`
+    - custom element pseudo-classes
+      - `:defined`
+      - `:not(:defined)`
+      - `:state()`
+    - printed page pseudo-classes
+      - `:first`
+      - `:left` & `:right`
+    - order & children pseudo-classes
+      - `:empty`, `:only-child`
+      - `:first-child` & `:last-child`
+      - `:first-of-type` & `:last-of-type`
+      - `nth-child()` & `:nth-last-child()`
+      - `:nth-of-type()` & `:nth-last-of-type()`
+    - ...
+  - Pseudo-Elements
+    - `::part()`
+    - `::marker`
+    - `::first-line` & `::first-letter`
+    - `::before` & `::after`
+    - `::selection` & `::spelling-error`
+    - form pseudo-elements
+      - `::placeholder`
+      - `::file-selector-button`
+    - transition viewers
+      - `::view-transition` & `::view-transition-group()`
+      - `::view-transition-new()`, `::view-transition-old()` & `::view-transition-image-pair()`
+    - ... 
+  - Grouping Selector (`,`)
+  - Nesting Selector (`&`) & scopes
+  - specificity & `!important` rule
+- Naming Conventions
+  - lowercase for tag name
+  - camelCase for id values
+  - kebab-case for classes names & custom elements
+  - BEM (Block Element Modifiers)
+  - SMACSS (Scalable & Modular Architecture for CSS)
+  - OOCSS (Object-Oriented CSS)
+  - Atomic CSS
+- keywords
+  - `all` property
+  - `inherit` value
+  - `intial` value
+  - `unset` value
+  - `transparent` value
+  - `currentcolor` value
+  - `not`, `only` & `and`
+- Units
+  - viewport
+  - absolute (`px` - `pt` - `pc` - `cm` - `mm` - `in`)
+  - relative (`%` - `em` - `rem` - `vh` - `vw` - `vmin` - `vmax` - `ex` - `ch`)
+  - units convertion
+- Built-In Functions
+  - math fns
+  - color & gradients fns
+  - shaping & transform fns
+  - transition, filters & animation fns
+  - content fns (`attr()` - `counter()` - `counters()`)
+  - another fns (`clamp()` - `repeat()` - `url()` - `var()`)
+- Colors & Backgrounds
+  - font & background color
+  - 140 cross-browser colors
+  - transparency & current color
+  - color models & opacity
+    - 2 hex digits (#)
+    - 256 dec (rgb, rgba)
+    - HSL color model (hsl, hsla)
+    - HWB color model (hwb)
+    - CIE LAB color space (lab)
+    - OKLAB color space (oklab)
+    - LCH color space (lch)
+    - OKLCH color space (oklch)
+  - fallback color
+  - color mixing
+  - background images
+    - size & repeat
+    - postion, origin & clip
+    - attachment (fixed & scrolls)
+    - watermarks (blending modes)
+  - background size
+  - gradients
+    - multiple color stops & percentages
+    - spacing (intersected & specified bands)
+    - linear (8 directions & specified angle)
+    - radial & conic (origin position & shape)
+    - transparency
+    - repeating
+  - aspect ratio & fitting
+  - mutiple backgrounds & watermarks
+  - [Coolors](https://coolors.com)
+- Box Model
+  - width & height
+  - resize & overflow
+  - plaintext isn't a box
+  - padding vs margin
+  - border vs outline
+  - box sizing
+  - margin collapse
+  - outline offset
+  - image for borders
+  - shaping & corners
+  - shadows
+- Display & Layouts
+  - block vs inline & inline-block
+  - table & multi-column layout 
+  - floating content & clear fix
+  - visiblity, opacity, hiding & removing
+  - flexible containers (flexbox) & grid system
+  - directions & alignment (how to center a div hahaha)
+  - wrapping & overflow
+  - gaps (gutters)
+  - stack order & `z-index`
+  - Positioning
+    - relative to normal position
+    - relative to parent container
+    - relative to browser window
+    - absolute position value
+    - sticky vs fixed positions
+    - overflow & overlapping
+- Floating Content
+  - floating image with text
+  - floating first letter
+  - floating boxes
+  - simple navbar
+  - clear fix
+- CSS Content
+  - `::before` & `::after`
+  - attribute value
+  - counters & nested counters
+  - counter style
+  - adding text & entities
+  - `:host()`
+- Custom Properties
+  - defining variable syntax(`--` & `@property`)
+  - `var()` built-in function
+  - `:root` pseudo class
+  - variable scopes & overriding
+  - redundancy
+  - color modes & themes
+- `@` Rules
+  - `@charset` for character encoding
+  - `@property` for customizing properties
+  - `@keyframes` for animations
+  - `@conatiner` & `@media` for RWD
+  - `@import` for importing stylesheets, fonts & icons
+  - `@page` for printed pages
+  - `@counter-style` for customizing counter styles
+  - `@font-face` & `@font-palette-values` for fonts
+  - `@layer` for CSS cascade layers order
+  - `@namespace` for XML namespaces
+  - `@scope` for targets in specified scope
+  - `@starting-style` for transitions
+  - `@supports` for checking browser support
+- Typography
+  - color
+  - alignment
+  - directions
+  - writing modes
+  - size
+  - style
+  - weight
+  - transformation
+  - variant
+  - spacing (horizontal & vertical)
+  - wrapping
+  - breaks
+  - indentation
+  - emphasis
+  - decoration
+  - shadows (single & multiple)
+  - overflow (scrolls & cut)
+  - families
+    - generic families
+    - fallback
+    - web safe
+    - google
+    - icons
+    - pairings
+    - font faces & palettes
+- Images & Videos
+  - shaping
+  - filters
+  - mask
+  - backgrounds
+  - borders
+  - markers
+  - cards (polaroid)
+  - icons
+  - image map
+  - modal
+  - zoom
+  - thumbnails
+  - avatars
+  - dropdown
+  - gallery
+  - sprites
+- Effects
+  - shadows
+  - 2D plane & origin
+  - 3D space & prespectives
+  - speed curves & time control
+  - 2D & 3D transforms
+  - transitions
+    - starting styles & load
+    - focus, hover & leave
+  - animations (animatable properties, repeating, forward & backward)
+  - multiple effects
+  - common effects (fade - ripple - press - hover)
+- Links & Buttons
+  - cursor
+  - hoverable & disabled
+  - lvha order & comined lvha
+  - active links
+  - link buttons
+  - top floating button
+  - toggle navbar button
+  - cta buttons (toasts & modals)
+  - button group
+- Lists
+  - markers
+    - types
+    - images
+    - position
+    - color
+    - hidden
+  - headers, navbars & footers
+  - accordions
+- Tables
+  - border
+  - alignment
+  - spacing
+  - large table
+  - nested & merged tables
+  - Fancy table (hoverable + striped)
+  - horizontal dividers
+  - captions
+- NavBars
+  - horizontal (top)
+  - vertical (side)
+  - fixed + overflow
+  - dropdowns & nested dropdowns
+  - responsive (open & closed)
+  - dividers
+- Forms
+  - caret color
+  - floating labels & placeholders
+  - input field box model
+  - validation (required `*` - valid & invalid)
+  - events & interactivity (pseudo-classes)
+  - date & color picker
+  - select box rotate effect
+  - check boxes & switches
+  - icons animated inputs
+  - resize textareas & overflow
+  - drag & drop items
+
+## Responsive Web Design
+- different stylesheets
+- mobile first approach
+- containers & media queries
+  - container
+  - media types(`screen` - `print` - `aural`)
+  - media features (breakpoints, orientation & speech)
+  - keywords (`not` - `only` - `and`) & OR `,`
+- fluid vs fixed grids
+- image resolution & SVGs
+- relative units
+
+## Next Steps?!
+- Choose a CSS Framework/Library
+- UI Design with Figma & Adobe products
+- Let your Template be a Bestseller
+
+## Components & Features
+- Loaders & Pre-Loaders
+- Containers
+- Headers
+- Footers
+- NavBars (menus, sidebars & dropdowns)
+- Accordions
+- Cards
+- Breadcrumbs
+- Paginations
+- Hero Section
+- Popups
+- Modals
+- Toasts
+- Sliders
+- Gallery
+- Tooltips
+- Charts
+- Time Counters
+- Data Tables
+- Forms (login, register, survey, checkout, feedback, subscription, contact, ...)
+- Maps & Locators
+- Videos
+- Toggle, CTA & Up Buttons
+- Light & Dark Modes
+
+## Keep on your Mind
+- syntax
+- default values
+- content to be styled
+- box model
+- use cases
+- `important!` & specificity
+- shorthands
+- nesting & inheritance
+- pre styles
+- best practices & common mistakes
+- browsers support [CanIUse](https://caniuse.com/)
+- block & inline directions
+- responsive & events
+- effects
+
+## Advanced Topics
+- CSS Object Model (CSSOM)
+- CSS Preprocessors (SCSS & Sass)
+- Design your Framework
+- Draw with Code (SVG - Canvas - CSS - JS)
+
+## In-Parallel Knowledge
+- rendering
+- VSCode Extensions
+- user-agent stylesheets
+- deprecated properties
+- on-the-fly styling
+- Accessiblity
