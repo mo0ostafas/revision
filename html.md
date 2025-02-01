@@ -1,0 +1,127 @@
+# HTML
+
+## TOC
+- What is HTML?
+  - Abbreviation
+  - Markup Language
+- [only-HTML Webpages Examples]()
+- Why HTML?
+  - History
+  - are there Alternatives?!
+- HTML Syntax & Rendering
+  - Plaintext
+  - Comments
+  - Entities
+  - Emojis
+  - Symbols
+  - Tags
+  - Attributes
+  - Nesting
+- Simple Webpage Structure
+  - boilerplate code
+  - comments structure
+- Metadata & Linked Files
+  - meta
+  - base
+  - favicon for title
+  - Fonts & Icons
+  - style & stylesheet link
+  - script & noscript
+- Headings & Paragraphs
+  - hierarchy & TOCs
+  - section & article headings
+- non-Semantic Containers
+  - `div`
+  - `span`
+- Text Formatters
+  - type
+  - style
+  - decoration
+  - color
+  - size
+  - alignment
+  - direction
+  - spacing
+- Media & Embedded Objects
+  - Images
+  - Figures
+  - Pictures
+  - SVGs
+  - Audios
+  - Videos
+  - Maps
+  - PDFs
+  - Webpages
+  - Plug-ins
+  - Objects
+- Links
+- Lists
+  - Ordered List
+  - Unordered List
+  - Definition List
+  - Nested Lists
+- Tables
+  - Table Styles
+  - Merged Tables
+- Forms
+  - grouping (fieldset & legend)
+  - placeholders & labels
+  - text input fields
+  - disabled & readonly
+  - radio buttons & checkboxes (indeterminate - check - not)
+  - progress bars & outputs
+  - textareas
+  - select boxes & datalists
+  - file uploads (single & multiple)
+  - action buttons
+  - HTTP methods
+  - data encoding & validation
+  - auto complete & confirmation
+- Semantics, Layout & HTML5
+  - comments structure
+  - header, main content & footer
+  - navigations & sidebars
+  - hgroups, sections & articles
+  - summary & details
+  - dialog (modal)
+- popups
+- Custom Element
+
+## Next Steps?!
+- Styling a Responsive Website
+- Adding Interactivity & Validations on User Inputs
+- Totally Accessible & High Performance Website
+
+## Advanced Topics
+- Document Object Model (DOM)
+- SVG & Canvas Drawing
+- Accessiblity
+- SEO & Ranking
+- Performance
+- Page Rendering
+- Charsets & URL Encoding
+- Template Engines
+- APIs
+
+## Keep on your Mind
+- Use Cases
+- Paired | Self-closing
+- Inline | Block
+- user-agent styles
+- Best Practices & Common Mistakes
+- private Attributes
+- Semantic, SEO & Accessiblity
+
+## In-Parallel Knowledge
+- VSCode Extensions
+- user-agent stylesheets
+- global Attributes
+- deprecated elements & attributes
+- file extensions
+- relative pathes
+- placeholder text & image
+- drag & drop
+- query parameters
+- HTML validator
+- browsers Dev Tools
+- events
