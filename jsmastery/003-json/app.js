@@ -1,9 +1,7 @@
 // DOM
-const quoteCard = document.querySelector('.quote-card');
 const quoteCat = document.querySelector('.quote-category');
 const quoteAuthor = document.querySelector('.quote-author');
 const quoteText = document.querySelector('.quote-text');
-quoteText.innerText = 'Click to generate a quote';
 
 // app core feature
 const $ = async() => {
