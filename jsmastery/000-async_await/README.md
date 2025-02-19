@@ -17,7 +17,7 @@ The app has 2 main functions:
 
 ## :gear: How it works?
 steps to run project correctly:
-- clone the whole [repo](https://github.com/mo0ostafas/revision) /or/ [download project directory](./).
+- clone the [repo](https://github.com/mo0ostafas/revision).
 - get your free API keys from [Countrylayer](https://countrylayer.com/) and [Exchangerates](https://exchangeratesapi.io/)
 - put your API keys in the file `.env.example`.
 - rename file from `.env.example` to only `.env`.
