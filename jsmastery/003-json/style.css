@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191716;
+    padding: 20px;
+}
+
+.quote-card {
+    max-width: 500px;
+    min-height: 20px;
+    background-color: #444;
+    color: #efefef;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-category {
+    text-transform: capitalize;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.quote-text {
+    line-height: 1.6
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: white;
+    color: #333;
+}
