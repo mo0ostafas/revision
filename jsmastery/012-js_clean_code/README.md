@@ -12,9 +12,9 @@ Clean code in JS follows principles that make the code readable, maintainable, a
 - avoid code repetation & large size/line-length (DRY & use JS Features)
 - avoid large functions (separate features & use objects for parameters list)
 - make a secured & free of errors/bugs production version
-  - unit-test functions
   - validate user inputs
   - remove `console.log()`
+  - debugging & unit-testing
   - install development third parties as devDependencies
   - secure sensitive data (use `.env` files for API keys, database user's password, ...)
 
