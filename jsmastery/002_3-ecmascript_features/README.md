@@ -1,8 +1,8 @@
-# :new: ECMAScript
+# :star: ECMAScript
 These are 2 videos from [JavaScript Mastery Channel](https://www.youtube.com/@javascriptmastery) about recent features in JS (ES6, ES7, ES8 version).
 
 
-## Versions
+## :new: Versions
 ECMA-International has set some standards to JS with new features in every year version:
 - ES1 (ES1997)
 - ES2 (ES1998)
