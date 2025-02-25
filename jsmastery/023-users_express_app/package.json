@@ -1,0 +1,32 @@
+{
+  "name": "users_api",
+  "version": "1.0.0",
+  "description": "This is Node and Express App For Backend API, tested using Postman",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "JS",
+    "javascript",
+    "API",
+    "Rest API",
+    "Node",
+    "node.js",
+    "nodejs",
+    "Express",
+    "express.js",
+    "expressjs"
+  ],
+  "author": "moOostafas developed idea from JSM",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
