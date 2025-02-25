@@ -67,6 +67,27 @@ GitHub is a cloud-based hosting service for Git repos that allows developers to 
 - **GitHub Pages**: Host static websites directly from a repo.
 - **Collaborators & Teams**: Work with others on private or public repos.
 
+### Some GitHub Commands
+- `gh auth login`: Log into GitHub CLI.
+- `gh auth status`: Check authentication status.
+- `gh repo clone`: Clone a repository.
+- `gh repo create`: Create a new repository.
+- `gh repo view`: View details of the current repository.
+- `gh repo fork`: Fork a repository.
+- `gh pr create`: Create a new pull request.
+- `gh pr list`: List open pull requests.
+- `gh pr view`: View a specific PR.
+- `gh pr checkout`: Checkout a PR branch.
+- `gh pr merge`: Merge a pull request.
+- `gh issue list`: List open issues.
+- `gh issue create`: Create a new issue.
+- `gh issue view`: View an issue.
+- `gh issue close`: Close an issue.
+- `gh browse`: Open the repo in a web browser.
+- `gh repo sync`: Sync the local branch with the remote.
+- `gh run list`: List recent GitHub Actions runs.
+- `gh run watch`: Watch an ongoing GitHub Actions workflow.
+
 
 ## :arrows_counterclockwise: Git :vs: GitHub :octocat:
 |Feature|Git|GitHub|
@@ -102,4 +123,7 @@ GitHub is a cloud-based hosting service for Git repos that allows developers to 
 - [Big Data بالعربي Video](https://youtu.be/Q6G-J54vgKc?si=D_NZ9u4F7jV4bcw8)
 - [Git Docs & Download](https://git-scm.com/)
 - [Visual Git Guide](https://marklodato.github.io/visual-git-guide/index-en.html)
-- [GitHub](https://github.com/)
+- [GitHub Website](https://github.com/)
+- [GitHub CLI Download & Manual](https://cli.github.com)
+- [JSM Video for Git Commands](https://youtu.be/XpvA00MRZ0o?si=u-Uc0Z4Y3IgCPQ_i)
+- [JSM Video for GitHub CLI](https://youtu.be/3c64BQm75eg?si=g56ISf3gKL__Tk9q)
