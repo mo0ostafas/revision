@@ -6,7 +6,7 @@
   - Styling Language
 - [HTML-CSS Webpages Examples]()
 - Why CSS?
-  - History
+  - History & Versions
   - are there Alternatives?!
 - CSS Syntax
   - internal CSS (`<style></style>` element)
@@ -368,6 +368,7 @@
 
 ## Keep on your Mind
 - syntax
+- deprecated properties
 - default values
 - content to be styled
 - box model
@@ -392,6 +393,5 @@
 - rendering
 - VSCode Extensions
 - user-agent stylesheets
-- deprecated properties
 - on-the-fly styling
 - Accessiblity

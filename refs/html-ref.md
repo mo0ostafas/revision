@@ -6,7 +6,7 @@
   - Markup Language
 - [only-HTML Webpages Examples]()
 - Why HTML?
-  - History
+  - History & Versions
   - are there Alternatives?!
 - HTML Syntax & Rendering
   - Plaintext
@@ -17,8 +17,9 @@
   - Tags
   - Attributes
   - Nesting
-- Simple Webpage Structure
+- Comments & Simple Webpage Structure
   - boilerplate code
+  - comments types
   - comments structure
 - Metadata & Linked Files
   - meta
@@ -104,7 +105,9 @@
 - APIs
 
 ## Keep on your Mind
+- DOM
 - Use Cases
+- Deprecated
 - Paired | Self-closing
 - Inline | Block
 - user-agent styles
@@ -116,7 +119,6 @@
 - VSCode Extensions
 - user-agent stylesheets
 - global Attributes
-- deprecated elements & attributes
 - file extensions
 - relative pathes
 - placeholder text & image

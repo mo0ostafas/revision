@@ -1,0 +1,265 @@
+# HTML
+
+## TOC
+- What is JS?
+  - Abbreviation
+  - Scripting Language
+- [Dynamic Website Examples]()
+- Why JS?
+  - History & Versions
+  - are there Alternatives?!
+- JS Syntax
+  - `<script>` element
+  - external JS file
+  - comments
+  - statements
+  - symbols, special characters, literals & operators
+  - identifiers
+  - methods
+  - directives
+  - errors & warnings
+- Comments
+  - types
+  - documentation
+- JS Line Concept
+  - automatic semicolon insertion (ASI)
+  - multi-statement line & multi-line statement (indentation, white spaces & line breaks)
+- I/O Statements
+  - alerts, prompts & confirms
+  - DOM, events & form inputs
+  - console messages
+  - printing pages
+- Expressions & Operators
+  - for numbers
+    - unary (`+`, `-`, `typeof`, `void`, `delete`)
+    - arithmetic (`+`, `-`, `*`, `/`, `%`, `**`, `++`, `--`)
+    - comparison (`<`, `>`, `==`, `!=`, `<=`, `>=`, `===`, `!==`)
+    - bitwise (`&`, `|`, `~`, `^`, `>>`, `<<`, `>>>`)
+  - for strings
+    - concatenation `+`
+    - comparison (`<`, `>`, `==`, `!=`, `<=`, `>=`, `===`, `!==`)
+  - for expressions
+    - logical/boolean & relational (`&&`, `||`, `!`, `in`, `instanceof`)
+    - regular expressions (regexp `//`)
+    - ternary (`?:`)
+    - expression grouping / function invocation operator (`()`)
+  - nullish coalesing operator (`??`)
+  - assignment operator (`:`, `=`, `=>` & compound assignment(`+=`, `&=`, `??=`, ...))
+  - spread operator (`...`)
+- Another Literals, Special Characters & Symbols
+  - `:` assigning value to keys in objects
+  - `::` for object properties & class binding
+  - `;` ending statements in js
+  - `,` grouping & separation
+  - `||`, `&&` short-circuit evaluation & if replacements
+  - `!!` truthy/falsy check
+  - `{}` declaration/isolation blocks
+  - `_` parameters replacement in arrow function / unused prameters for functions (private property)
+  - `$` main object identifier
+- Precedence
+- Variables, Assignment Statements & Datatypes
+  - identifier is a reference
+  - scopes, hoisting, declaration reserved words (`var` - `let` - `const`) & `use strict` directive
+  - naming rules & conventions
+  - declaration, assignment & intialization
+  - redeclaration & reassignment
+  - mutiple declarations in one line
+  - data types, `new` reserved word
+  - assignment operators (`=` & compound assignment(`+=`, `&=`, ...))
+  - `delete` reserved word
+  - data types & notations
+    - `typeof` reserved word
+    - mutable & immutable
+    - primitive
+      - undefined
+      - number (integer, floating-point, exonential-notation,  numbers)
+      - bigint
+      - string (zro character or more)
+      - boolean (binary: true & false)
+      - null
+      - symbol
+    - non-primitive
+      - objects
+        - objects (name:value pairs)
+        - arrays (int, float & mixed)
+        - sets & weaksets
+        - maps & weakmaps
+        - dates
+        - functions
+        - regular expressions
+        - promises
+    - limits, memory sizes & addresses
+    - truthy & falsy values
+    - type convertion
+- Numbers & BigInt
+  - primitive & object numbers
+    - integers (short & long)
+    - floating-point numbers (float & double)
+    - scientific notation (± exponents `e`)
+    - bases(binary (`\b` & `0b`), octal (`07` & `0o`), decimal, hexadecimal `0x` & `toString()` method)
+    - number-type `±Infinity` reserved word (division by 0 & overflow)
+    - number-type not a number `NaN` reserved word & `isNaN()` method
+    - unary & parsing strings (`+`, `-`, `parseInt()`, `parseFloat()`)
+    - big integers `n`
+    - `new` reserved word, `Number` & `BigInt` classes
+  - numbers operations (only string, arithmetic, concatenation, bigint & composed)
+  - random integers generations with `Math.random() * int` returns new integer number as a result where result >= 0 & result < int (what if randomization negative or in range)
+  - precision
+    - 64 bit size 0~63 (number/fraction 0~51, exponent 52~62 & sign 63)
+    - limits, overflow rounding & accuracy problem/solution (multiply & divide)
+    - 15 digits integers & 17 maximun decimals
+  - number properties
+    - `EPSILON`	(sensitivity)
+    - `MAX_VALUE`, `MIN_VALUE`, `MAX_SAFE_INTEGER` & `MIN_SAFE_INTEGER` (limits)	
+    - `POSITIVE_INFINITY`	& `NEGATIVE_INFINITY`	(overflow)
+    - `NaN`	(Not-a-Number)
+  - number methods & `Math` object
+    - `Math` class properties (`PI`, `E`, `SQRT2`. `SQRT1_2`, `LN2`, `LN10`, `LOG2E`, `LOG10E`, ...)
+    - convertion & parsing (`Number()`, `parseInt()`, `Number.parseInt()`, `parseFloat()`, `Number.parseFloat()`, string type `toString()`, object to primitive number `valueOf()`, scientific notation `toExponential()`, ...)
+    - precision & rounding ± (`toFixed()`, `toPrecision()`, `Math.round()`, `Math.ceil()`, `Math.floor()`, `Math.trunc()`, `Math.()`, `Math.()`, `Math.()`)
+    - checks (`isInteger()`, `isSafeInteger()`, `isFinite()`, `isNaN()`, ...)
+    - powers (`Math.pow()` take two arguments first is base & second is exponent, `Math.sqrt()`, `Math.cbrt()`, `Math.exp()` for E base, `Math.log()` for E base, `Math.log2()`, `Math.log10()`)
+    - signs (`Math.sign()` (-1 for negatives, 0 for undefined/null/0, 1 for positives), `Math.abs()` absolute value of real numbers)
+    - trignometric (pass/return radian angles `Math.sin()`, `Math.cos()`, `Math.tan()`, `Math.asin()`, `Math.acos()`, `Math.atan()`, `Math.sinh()`, `Math.cosh()`, `Math.tanh()`, `Math.asinh()`, `Math.acosh()`, `Math.atanh()`, `Math.atanh2()`)
+    - comparisons (`Math.min()`, `Math.max()`)
+    - randomization (`Math.ranom()` 0~1 floating-point number (1 is exclusive))
+- Booleans
+  - primitive & object declarations (`new` keyword & `Boolean` class declaration)
+  - `true` & `false` reserved words (0 & 1)
+  - truthy & falsy values (`!!` & `Boolean()` function)
+  - short-circuit evaluation & Nullish Coalsi (`&&`, `||` & `??`)
+- Strings
+  - primitive & object strings
+    - quotes (double `"` & single `'`)
+    - templates literals (backtiks <code>\`\`</code>) & interpolation (`${}` for variables & expressions)
+    - quotes inside quotes & backtiks (`''`, `""`, `'"'`, `"'"` `'\''`, `"\""`, <code>\`'\`</code>, <code>\`"\`</code>)
+    - `new` reserved word & `String` class
+  - escape sequence (`\'` inside `''`, `\"` inside `""` & `\\`, `\b`, `\f`, `\n`, `\r`, `\t`, `\v` inside quotes)
+  - string methods & properties
+    - concatination & `+` operator
+    - search, accessing, read only property access (`[]` like but not an array) & ± index
+    - formatting text, breaking lines, long strings & `length` property
+    - to string convertion
+    - regular expressions & text replacement
+- Function
+  - DRY
+  - declaration (`function` reserved word, identifier, anonymous, arrow, `new` reserved word, variables, hoisting)
+  - parameters (default parameters, `...` spread operator, `args` & `arguments` arrays)
+  - invocation (`()` operator, self-invoked, export in modules)
+  - arguments (pass by value & pass by reference)
+  - side effects, lifetime & scopes (global & local)
+  - `this` reserved word
+  - methods (from object, `.call()`, `.apply()`, `.bind()`, ...)
+  - higher order functions (`map()`, `filter()`, `reduce()`, `foreach()`, `find()`, `some()`, `every()`, ...)
+  - callbacks
+- Objects
+  - declaration (`{}` object literals), constant reference, key:value pairs (properties & methods) & multi-line spanning
+  - a copy of object shares the same address
+  - adding, deleting & accessing, looping properties (`.`, `?.`, `[]`, `in`, `of`, `delete`, `Object.entires()`, `Object.values()`)
+  - constuctor function
+  - adding property/method to constructor prototype
+  - nested objects
+  - parsing JSON & stringifying object
+  - `this` & `new` reserved words problems
+  - built-in constructors (Object, Array, Map, Set, Date, RegExp, Function)
+  - comparing two objects always returns false
+  - convertion to primitives (`toString()` & `valueOf()` methods)
+  - sorting objects with comparing function for string & numeric values
+- Arrays
+  - declaration
+    - `[]` array literals
+    - `split()` & `Array.from()` methods to make arrays of iterables
+    - `new` reserved word with `Array` class problem
+    - multi-line spanning
+    - nested arrays/objects
+    - constant reference not element nor length (full array elements access)
+  - indexing array elements (identifier, looping, methods)
+  - accessing/overriding array elements & index (`[]` accessing only `+` index, `0` first, `length-1` last & only forward direction)
+  - adding/removing/shifting array elements (`delete` reserved word, `length` property & methods)
+  - rotating array elements
+  - array boundries & `undefined` holes (with full array elements access)
+  - arrays, associative arrays / hashes & objects
+  - multi-dimensional arrays & flattening
+  - types
+    - ordinary arrays (can contain strings, numbers, objects)
+    - intarray (can only contain integers)
+    - floatarray (can only contain floating-point numbers)
+  - methods & properties
+    - `split()` & `Array.from()` for forming arrays from iterables
+    - `length` property for counting array elements
+    - `instanceof` reserved word & `Array.isArray()` checking if array
+    - `Array.keys()`, `Array.entries()`, `at()` acccessing values & indices of array elements (± forward & backward)
+    - `toString()`, `join()` array to string convertion with separations 
+    - `flat()` multi-dimensional array conversion to one dimension
+    - `concat()` method, `...` spread operator, `[]` grouping for arrays concatenation
+    - `pop()`, `shift()`, `concat()`, `push()`, `unshift()`, `copyWithin()`, `slice()`, `splice()`, `toSpliced()` methods (for adding/removing/shifting array elements)
+    - `indexOf()`, `lastIndexOf()`, `findIndex()`, `findLast()`, `findLastIndex()`, `includes()` methods (for array searching)
+    - `sort()`, `reverse()`, `toStored()`, `toReversed()` for array elements sorting alphabetically
+    - `sort()` higher order function, compare function for array elements sorting numerically, finding lowest & highest values (array boundaries)
+    - `forEach()`, `map()`, `flatMap()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`, `filter()`, `reduce()`, `reduceRight()`, `every()`, `some()` higher order functions
+    - `Math.min.apply(null, arr)`, `Math.max.apply(null, arr)`, comparing with `±Infinity` for lowest & highest value of unsorted numerical arrays
+    - does it affect the original array (has side effects)?
+    - `undefined` holes & `NaN` problems with array methods
+- Dates
+  - 365-day/short year 28-feb & 366-day/leap year 29-feb
+  - monthes with 30 days & 31 days
+  - week = 7 days, day = 24 hours, hour = 60 minutes, minutes = 60 seconds, second = 1000 milliseconds 
+  - first three letters of day/month
+  - timezone (GMT & UTC)
+  - `new` reserved word, `Date` class & instance (current & specific static dates)
+    - milliseconds (from Thu 1<sup>st</sup> Jan 1970 00:00:00 GMT)
+    - date string formats
+      - `MM/DD/YYYY` (short)
+      - `±0~12`, `YYYY`, `YYYY-MM`,`YYYY-MM-DD`, `YYYY-MM-DDTHH:MM:SS`, `YYYY-MM-DDTHH:MM:SSZ`, `YYYY-MM-DDTHH:MM:SS±HH:MM` (ISO)
+      - `Mon, d, y h:m:s` (`month` is abbreviated/full case insensitive month name, `d` is correct day, `month d` are mandatory, commas `,` can be written or not, `y` is 2001 default)
+    - date parts
+      - year `min~-1` & `100~max` (less than 3-digit-positive number it's 20<sup>th</sup> century `6` => `1906`)
+      - month `0~11` (overflow shifts ±12n)
+      - day `1~28/29/30/31` depending on year & month (overflow shifts from the end of the month: `0`, `< 0` & `> month days`)
+      - hour `0~23` (overflow shifts ±24n)
+      - minute & second `0~59` (overflow shifts ±60n)
+      - millisecond (overflow shifts ±1000n)
+  - methods & properties of date object/class
+    - `getYear()`, `setYear()` yy (deprecated), `getUTCFullYear()` & `getFullYear()` yyyy
+    - `setFullYear()` sets year (optionally month & day), handling shifts & returning milliseconds (default time parts are local time)
+    - `getUTCMonth()`, `getMonth()`, `setMonth()` 0~11 (as array)
+    - `getUTCDay()`, `getDay()`, `setDay()` 0~6 (as array)
+    - `getUTCDate()`, `getDate()`, `setDate()`	day of month 1~31
+    - `getUTCHours()`, `getHours()`, `setHours()` 0~23
+    - `getUTCMinutes()`, `getMinutes()`, `setMinutes()` 0~59
+    - `getUTCSeconds()`, `getSeconds()`, `setSeconds()` 0~59
+    - `getUTCMilliseconds()`, `getMilliseconds()`, `setMilliseconds()` 0~999
+    - `getTime()`, `setTime()` milliseconds since January 1, 1970 00:00:00.000
+    - `getTimezoneOffset()` difference in ±minutes between local time an UTC time
+    - `Date.now()`: `now()` is a method for `Date` class to return milliseconds from Thu 1<sup>st</sup> Jan 1970 00:00:00 GMT
+    - `toString()` (default), `toDateString()`, `toUTCString()`, `toISOString()` & `Date.parse()` for date to string conversion
+- Events
+  - HTML attributes, `on...` methods & event listeners
+  - page loading (HTML structure & JS injection)
+  - types
+    - mouse, touch & keyboards (`MouseEvent`, `WheelEvent`, `TouchEvent`, `KeyboardEvent` & `ClipboardEvent`)
+    - general & media (`Event`, `UiEvent` & `ProgressEvent`)
+    - link & input (`HashChangeEvent`, `InputEvent` & `FocusEvent`)
+    - effects (`AnimationEvent`, `TransitionEvent` & `PageTransitionEvent`)
+    - BOM (`PopStateEvent` & `StorageEvent`)
+    - drag & drop (`DragEvent`)
+
+## Next Steps?!
+- 
+
+## Advanced Topics
+- 
+
+## Keep on your Mind
+- Use Cases
+- Best Practices & Common Mistakes
+- ECMA version
+- deprecated methods & events
+- browser support
+- errors
+
+## In-Parallel Knowledge
+- compilation & execution process
+- VSCode Extensions
+- browsers Dev Tools
+- 

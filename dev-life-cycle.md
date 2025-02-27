@@ -1,0 +1,78 @@
+# Web Development Life Cycle
+
+## TOC
+- planning
+- requirements & analysis
+- system design
+- implementation & coding
+- testing & debugging
+- deployment
+- maintenance
+
+## For Coders
+- ICDL
+  - Computer Components
+    - I/O (mouse - keyboard - speaker - microphone - touchpad - screen - ...)
+    - storage (RAM - ROM - Hard Disk - USB - SD Cards - CD - DVD - Floppy Disks - ...)
+    - processing (CPU - GPU - ...)
+  - How to properly manage your OS
+    - operating systems (Win, MAC, Linux, Android, iOS, ...)
+    - GUI & CLI commands
+    - pathes & extensions
+    - files & folders manipulation
+  - Internet & Email Essentials
+  - ...
+- Languages
+  - binary & hexadecimal instructions (machine language)
+  - assembly languages (e.g. MIPS)
+  - low level languages (C/C++)
+  - hardware description languages (VHDL, Verilog, ...)
+  - high level languages (Java, Swift, C#, ...)
+  - scripting languages (JS, TS, PHP, Python, Ruby, Bash, PowerShell ...)
+  - markup languages (HTML, XHTML, XML, Markdown, MathML, TeX, LaTeX, ...)
+  - data description & configuration languages (CSV, JSON, YAML, NGINX, env, ...) 
+  - domain-specific languages (MATLAB, CSS, Arduino C, ...)
+  - query languages (SQL, GraphQL, ...)
+  - functional languages (F#, Scala, ...)
+  - ...
+- Libraries & Frameworks
+  - web
+    - CSS frameworks/libraries (bootstrap, tailwind, ...)
+    - JS frameworks/libraries (react, angular, vue, d3, ...)
+    - unit-testing frameworks/libraries (jest, jasmine, PHPUnit, ...)
+    - redux toolkit
+    - express framework
+    - axios library
+  - phone
+    - cross platform (react native & flutter)
+  - desktop
+    - electron
+- Another Tools
+  - design & wireframes (Figma, Adobe products, Canva, media providers, color pallets, ...)
+  - coding area (code editors & IDEs)
+  - VSCode debugger & extensions
+  - version controlling (Git & GitHub)
+  - build & pkg management (npm, yarn, vite, gulp, ...)
+  - performance & SEO (lighthouse, wave, ...)
+  - linting & formatting (ESLint, prettier, ...)
+  - website builders & hosting (hostinger, one, ...)
+  - SDKs & runtime environments (android SDKs, JRE, JDK, node.js, ...)
+  - template engines & preprocessors (Pug, ejs, htmx, SCSS, Sass, ...)
+  - APIs tools & ERD design (postman, thunder client, draw.io, lcuidchart, ...)
+  - web browsers (chrome, safari, edge, firefox, brave, opera, netscape, IE, QQ, ...)
+  - dev tools (chrome dev tools, react dev tools, vue dev tools, angular dev tools, ...)
+  - deployment & CI/CD (Vercel, GitHub Pages, Netlify, Docker, Kubernetes, Circle CI/CD, ...)
+  - security (JWT, OWASP, ...)
+  - ...
+- Behind the Scene
+  - compilation & execution process
+  - operating system internals
+  - visualizations & rendering
+  - concurrency & parallelism
+  - network protocols & communications
+  - architectures
+  - virtualization & containers
+  - memory management
+  - distributed systems
+  - ...
+- ...
