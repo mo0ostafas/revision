@@ -1,4 +1,10 @@
-# HTML
+> [!WARNING]
+> This document is deprecated. Click this link to redirect you to [the most updated version | monAsyc](https://github.com/mo0ostafas/monAsync/tree/js) 
+
+> [!CAUTION]
+> This document will disappear by April 1<sup>st</sup> 2025.
+
+# JS
 
 ## TOC
 - What is JS?
